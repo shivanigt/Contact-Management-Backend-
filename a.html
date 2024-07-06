@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website Layout</title>
+    <link href="https://cdn.jsdelivr.net/npm/h8k-design@latest/dist/index.css" rel="stylesheet"/>
+    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/npm/h8k-design@latest/dist/assets/favicon.ico">
+    <script src="https://cdn.jsdelivr.net/npm/h8k-components/dist/h8k-components/h8k-components.esm.js"
+            type="module"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/h8k-components/dist/h8k-components/h8k-components.js"></script>
+</head>
+
+<body>
+<!--HTML content goes here-->
+<h8k-navbar header="Website Layout"></h8k-navbar>
+
+<div class="my-50 mx-auto">
+    <div class="container">
+        <div class="layout">
+            <div class="left">
+                <div class="box header" data-title="header"></div>
+                <div class="content">
+                    <div class="box sidebar" data-title="sidebar"></div>
+                    <div class="box article" data-title="article"></div>
+                </div>
+                <div class="box footer" data-title="footer"></div>
+            </div>
+
+            <div class="right">
+                <div class="box aside-1" data-title="aside-1"></div>
+                <div class="box aside-2" data-title="aside-2"></div>
+                <div class="box aside-3" data-title="aside-3"></div>
+            </div>
+        </div>
+        <div class="template">
+            <div class="box box-1" data-title="header"></div>
+            <div class="box box-2" data-title="sidebar"></div>
+            <div class="box box-3" data-title="article"></div>
+            <div class="box box-4" data-title="footer"></div>
+            <div class="box box-5" data-title="aside-1"></div>
+            <div class="box box-6" data-title="aside-2"></div>
+            <div class="box box-7" data-title="aside-3"></div>
+        </div>
+    </div>
+</div>
+
+</body>
+<!-- HMR and test infrastructure - DO NOT EDIT -->
+<script src="./bundle.js"></script>
+</html>
